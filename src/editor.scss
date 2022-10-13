@@ -1,0 +1,59 @@
+@charset 'utf-8';
+.wp-block-oja-code-gutenberg {
+
+  ol.linenums {
+    list-style: initial;
+    width: initial;
+    background-color: initial;
+    border: initial;
+    font-size: initial;
+    position: initial;
+    margin: initial;
+    padding-right: 0;
+    padding: 1%;
+  }
+
+  .filename input {
+    max-width: 300px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  .fileShowMode {
+    label {
+      margin-right: 4%;
+      margin-top: 1%;
+    }
+    .components-radio-control__option {
+      display: inline;
+    }
+  }
+
+  p.filename-err {
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0;
+    color: red;
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  }
+
+  .row-number input {
+    width: 100px;
+    display: inline-block;
+    margin-left: 15px;
+  }
+
+  .css-4dk55l {
+    font-weight: bold;
+  }
+}
+
+.wp-block-oja-code-gutenberg.default {
+  background: none;
+}
+.components-input-control__label {
+  overflow: visible!important;
+}
