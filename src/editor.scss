@@ -1,5 +1,9 @@
 @charset 'utf-8';
 .wp-block-oja-code-gutenberg {
+  div[data-wp-component="VStack"] {
+    flex-direction: row;
+    width: 80%;
+  }
 
   ol.linenums {
     list-style: initial;
@@ -26,6 +30,7 @@
     }
     .components-radio-control__option {
       display: inline;
+      width: 100%;
     }
   }
 

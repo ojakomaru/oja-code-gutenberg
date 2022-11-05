@@ -1,7 +1,7 @@
 {
   "name": "oja-code-gutenberg",
   "version": "1.0.0",
-  "description": "",
+  "description": "コードシンタックスハイライトブロック",
   "main": "index.js",
   "scripts": {
     "start": "wp-scripts start",
@@ -11,8 +11,8 @@
     "lint:js": "wp-scripts lint-js",
     "packages-update": "wp-scripts packages-update"
   },
-  "keywords": ["code", "oja", "pre"],
-  "author": "ojako",
+  "keywords": ["code", "ojacode", "pre", "oja", "gutenberg", "コード"],
+  "author": "ojakomaru",
   "license": "ISC",
   "devDependencies": {
     "@wordpress/scripts": "19.2.2"

@@ -1,14 +1,10 @@
-/*!***************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
-  \***************************************************************************************************************************************************************************************************************************************/
 @charset "UTF-8";
 .wp-block-oja-code-gutenberg p.file_name {
   margin: 0;
   display: inline-block;
   font-size: 15px;
   position: relative;
-  top: 2px;
-  /* 要調整 */
+  top: 2px; /* 要調整 */
   border: 1px solid #888;
   border-bottom: none;
   background: #fff;
@@ -28,7 +24,6 @@
   border: 1px solid #888;
   margin: 0 !important;
   background: #fff;
-  letter-spacing: 1px;
   white-space: pre-line;
   position: relative;
 }
@@ -101,8 +96,7 @@
 
 .wp-block-oja-code-gutenberg .prettyprint ol {
   margin-left: 15px;
-  white-space: pre-wrap;
-  /* 折り返し */
+  white-space: pre-wrap; /* 折り返し */
 }
 @media screen and (max-width: 768px) {
   .wp-block-oja-code-gutenberg .prettyprint ol {
@@ -111,15 +105,11 @@
 }
 
 .wp-block-oja-code-gutenberg .prettyprint ol.linenums > li {
-  list-style-type: decimal;
-  /* 行番号を1行ずつ表示 */
-  border-left: solid 1px #EBB15E;
-  /* 行番号との区切り線 */
+  list-style-type: decimal; /* 行番号を1行ずつ表示 */
+  border-left: solid 1px #EBB15E; /* 行番号との区切り線 */
   padding: 0;
-  padding-left: 0.8rem;
-  /* 間隔の調整 */
-  margin: 0 1.5rem;
-  /* 間隔の調整 */
+  padding-left: 0.8rem; /* 間隔の調整 */
+  margin: 0 2rem; /* 間隔の調整 */
 }
 @media screen and (max-width: 768px) {
   .wp-block-oja-code-gutenberg .prettyprint ol.linenums > li {
@@ -135,8 +125,7 @@
 }
 
 .wp-block-oja-code-gutenberg .prettyprint ol.linenums > li::marker {
-  color: #aaa;
-  /* 行番号の色 */
+  color: #aaa; /* 行番号の色 */
 }
 
 /* 必要であればスキンのスタイルは好みに合わせて変更します */
@@ -308,8 +297,7 @@
 .sunburst pre.prettyprint, .sunburst code.prettyprint {
   background-color: #000;
   border-radius: 8px;
-  border-top-left-radius: 0;
-  /* 追加 */
+  border-top-left-radius: 0; /* 追加 */
 }
 .sunburst pre.prettyprint {
   margin: 1em auto;
@@ -437,12 +425,15 @@
 .doxy pre.prettyprint, .doxy code.prettyprint {
   font-family: "Droid Sans Mono", "CPMono_v07 Bold", "Droid Sans";
   font-weight: bold;
-  font-size: 16px;
-  /* 変更 */
+  font-size: 16px; /* 変更 */
   background-color: #0f0f0f;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -khtml-border-radius: 8px;
   border-radius: 8px;
-  border-top-left-radius: 0;
-  /* 追加 */
+  border-top-left-radius: 0; /* 追加 */
 }
 @media screen and (max-width: 768px) {
   .doxy pre.prettyprint, .doxy code.prettyprint {
@@ -650,6 +641,4 @@
 }
 .wp-block-oja-code-gutenberg .copyButton span {
   color: #7270e6;
-}
-
-/*# sourceMappingURL=style-index.css.map*/
+}/*# sourceMappingURL=style.css.map */
